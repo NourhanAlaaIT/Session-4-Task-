@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pow function</title>
+    </head>
+    <body>
+        <script>
+           
+            //method 1
+
+            function pow1(x, n) {
+            var output = x;
+            for (var i = 1; i < n; i++) {
+                output  *= x;
+            }
+                return output;
+            }
+            console.log(pow1(100, 2));
+
+            
+            //method 2
+
+            function pow2(x, n){
+                return x ** n;
+            }
+            console.log(pow2(100, 5));
+
+            
+            // method 3
+            function pow3(){
+                var x = prompt("Enter a number");
+                var n = prompt("Enter a number");
+                return x ** n;
+            }
+            console.log(pow3());
+
+            
+            //method 4
+            function pow4(x, n){
+                var output = x;
+                for (i = 1; i < n; i++){
+                    return output *= x;
+                }
+                return output;
+            }
+            var x = prompt("Enter a number");
+            var n = prompt("Enter a number");
+            console.log(pow4(x, n));            
+        </script>
+    
+    </body>
+</html>
+                                     

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 3</title>
+    </head>
+    <body>
+        <script>
+            var arr = [1, 2, 3, 4];
+            
+            // a = 0, b = 1 => a = 1;
+            // a = 1, b = 2 => a = 3;
+            // a = 3 , b = 3 => a = 6
+            // a = 6 , b = 4 => 10 // the output of the function
+
+            function sumArray(a, b){
+                return a + b;
+            }   
+            
+            console.log(arr.reduce(sumArray))
+
+        </script>
+    </body>
+    </html>
